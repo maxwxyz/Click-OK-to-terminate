@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>Click OK to Terminate</name>
+  <description>
+    Recreates the notorious fatal-error dialog, then closes FreeCAD without saving.
+  </description>
+  <version>1.0.0</version>
+  <date>2026-07-27</date>
+  <freecadmin>1.0.0</freecadmin>
+  <pythonmin>3.8.0</pythonmin>
+  <maintainer email="maxwilfinger@users.noreply.github.com">Max Wilfinger</maintainer>
+  <license file="LICENSE">GPL-3.0-or-later</license>
+  <license file="LICENSE-Assets">CC0-1.0</license>
+  <icon>Resources/Icons/ClickOKToTerminate.svg</icon>
+  <url branch="main" type="repository">https://github.com/maxwxyz/Click-OK-to-terminate</url>
+  <url type="readme">https://raw.githubusercontent.com/maxwxyz/Click-OK-to-terminate/main/README.md</url>
+  <content>
+    <other>
+      <subdirectory>./</subdirectory>
+    </other>
+  </content>
+</package>
